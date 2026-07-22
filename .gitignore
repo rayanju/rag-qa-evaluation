@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+*.pt
+*.pth
+*.bin
+
+rag_qa_benchmark.json
+train-v2.0.json
