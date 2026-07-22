@@ -69,10 +69,7 @@ Questions and candidate contexts are encoded using BERT. Contexts are ranked usi
 RRF combines lexical and dense rankings using:
 
 $$
-\operatorname{RRF}(d)
-=
-\sum_{r \in R}
-\frac{1}{c + \operatorname{rank}_r(d)}
+RRF(d)=\sum_{r\in R}\frac{1}{c+\mathrm{rank}_r(d)}
 $$
 
 This avoids directly combining lexical-overlap and cosine-similarity scores, which operate on different scales.
